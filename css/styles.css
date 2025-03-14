@@ -387,8 +387,35 @@ footer {
 
 /* Responsive */
 @media (max-width: 768px) {
+    body {
+        font-size: 16px; /* Tamaño de fuente más pequeño para móviles */
+    }
+
+    header h1 {
+        font-size: 2rem; /* Tamaño de fuente más pequeño para el título */
+    }
+
+    nav ul {
+        flex-direction: column; /* Menú en columna para móviles */
+        align-items: center;
+    }
+
     .main-content {
         max-width: 100%; /* Ocupa todo el ancho en móviles */
+        padding: 1rem; /* Menos padding en móviles */
+    }
+
+    .welcome-section img {
+        width: 200px; /* Imagen más pequeña en móviles */
+    }
+
+    .services-section ul {
+        padding-left: 0; /* Elimina el padding de la lista */
+    }
+
+    .video-container {
+        max-width: 100%; /* Video ocupa todo el ancho en móviles */
+        padding-bottom: 56.25%; /* Proporción 16:9 para el video */
     }
 
     .sidebar {
@@ -397,34 +424,46 @@ footer {
         margin-top: 2rem; /* Espacio arriba de la columna */
     }
 
-    nav ul {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .welcome-container {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .welcome-image {
-        width: 150px;
-    }
-
     .team {
-        flex-direction: column;
+        flex-direction: column; /* Equipo en columna para móviles */
         align-items: center;
     }
 
     .team-member img {
-        width: 100px;
+        width: 100px; /* Imágenes más pequeñas en móviles */
         height: 100px;
     }
 
-    /* Ajustes para el video en móviles */
-    .video-container {
-        max-width: 90%; /* El video ocupa más ancho en móviles */
-        padding-bottom: 50%; /* Ajustar la altura para móviles */
+    .razas-columnas {
+        flex-direction: column; /* Columnas en una sola columna en móviles */
+        gap: 1rem; /* Menor espacio entre columnas */
+    }
+
+    .raza-columna {
+        width: 100%; /* Ocupa todo el ancho en móviles */
+    }
+
+    .perros-list li {
+        flex-direction: column; /* Elementos de la lista en columna */
+        align-items: center;
+        text-align: center;
+    }
+
+    .perros-list img {
+        margin-right: 0; /* Elimina el margen derecho en móviles */
+        margin-bottom: 1rem; /* Espacio debajo de la imagen */
+    }
+
+    .contacto-container {
+        padding: 1rem; /* Menos padding en móviles */
+    }
+
+    #contact-form {
+        padding: 1rem; /* Menos padding en móviles */
+    }
+
+    .donativos-section {
+        padding: 1rem; /* Menos padding en móviles */
     }
 }
 

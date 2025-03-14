@@ -1,0 +1,127 @@
+<mxfile host="Electron" modified="2025-03-14T21:23:59.991Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.21 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="1poA8pa0e0x4N86X2VRL" version="22.1.21" type="device">
+  <diagram name="Página-1" id="oirGxPg0KlRsJ3XOexyb">
+    <mxGraphModel dx="1290" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zFN81QH3VRkSANwxlvUG-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" width="350" height="1620" as="geometry" />
+        </mxCell>
+        <mxCell id="zFN81QH3VRkSANwxlvUG-2" value="logo" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="165" y="50" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zFN81QH3VRkSANwxlvUG-3" value="El pulpo simpatico" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="10" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zFN81QH3VRkSANwxlvUG-4" value="" style="endArrow=none;html=1;rounded=0;exitX=-0.002;exitY=0.174;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="39.99999999999998" y="337.33000000000004" as="sourcePoint" />
+            <mxPoint x="390" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zFN81QH3VRkSANwxlvUG-5" value="Inicio" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="175" y="140" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zFN81QH3VRkSANwxlvUG-6" value="Adopcion" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="175" y="180" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zFN81QH3VRkSANwxlvUG-7" value="Nosotros" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="175" y="220" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zFN81QH3VRkSANwxlvUG-8" value="Contacto" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="175" y="260" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zFN81QH3VRkSANwxlvUG-9" value="Donativos" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="175" y="300" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zFN81QH3VRkSANwxlvUG-22" value="© 2025 El Pulpo Simpático. Todos los derechos reservados" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1620" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zFN81QH3VRkSANwxlvUG-37" value="Bienveido a El Pulpo simpatico" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="340" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zFN81QH3VRkSANwxlvUG-39" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="140" y="800" width="150" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="zFN81QH3VRkSANwxlvUG-11" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="zFN81QH3VRkSANwxlvUG-39">
+          <mxGeometry width="150" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="zFN81QH3VRkSANwxlvUG-23" value="Razas medianas" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="zFN81QH3VRkSANwxlvUG-39">
+          <mxGeometry width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zFN81QH3VRkSANwxlvUG-25" value="Descripcion: LAs razas madianas son equilibradas, activas y perfectas para famialias" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="zFN81QH3VRkSANwxlvUG-39">
+          <mxGeometry y="40" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zFN81QH3VRkSANwxlvUG-26" value="Cuidados: NEcesitan ejercicio moderado, alimentacion adecuada y solcializacion" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="zFN81QH3VRkSANwxlvUG-39">
+          <mxGeometry y="120" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zFN81QH3VRkSANwxlvUG-27" value="Lista de perros:&lt;br&gt;&lt;br&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Beagle&lt;br&gt;&lt;br&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Bulldog&lt;br&gt;&lt;br&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Schnauzer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="zFN81QH3VRkSANwxlvUG-39">
+          <mxGeometry x="20" y="200" width="130" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="zFN81QH3VRkSANwxlvUG-28" value="imagen" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="zFN81QH3VRkSANwxlvUG-39">
+          <mxGeometry x="10" y="240" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zFN81QH3VRkSANwxlvUG-29" value="imagen" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="zFN81QH3VRkSANwxlvUG-39">
+          <mxGeometry x="10" y="290" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zFN81QH3VRkSANwxlvUG-30" value="imagen" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="zFN81QH3VRkSANwxlvUG-39">
+          <mxGeometry x="10" y="340" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zFN81QH3VRkSANwxlvUG-40" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="140" y="390" width="150" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="zFN81QH3VRkSANwxlvUG-10" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="zFN81QH3VRkSANwxlvUG-40">
+          <mxGeometry width="150" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="zFN81QH3VRkSANwxlvUG-13" value="Razas pequeñas" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="zFN81QH3VRkSANwxlvUG-40">
+          <mxGeometry x="20" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zFN81QH3VRkSANwxlvUG-14" value="Descripcion: Las razas pequeñas son ideales para espacios reducidos. Son juguetonas, cariñosas y fáciles de cuidar." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="zFN81QH3VRkSANwxlvUG-40">
+          <mxGeometry y="40" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zFN81QH3VRkSANwxlvUG-15" value="Cuidados: Necesitan paseos cortos, alimentación balanceada y visitas regulares al veterinario" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="zFN81QH3VRkSANwxlvUG-40">
+          <mxGeometry x="5" y="120" width="135" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zFN81QH3VRkSANwxlvUG-16" value="Lista de perros:&lt;br&gt;&lt;br&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Chihuahua, &lt;br&gt;&lt;br&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Pomerania &lt;br&gt;&lt;br&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Yorkshire Terrier" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="zFN81QH3VRkSANwxlvUG-40">
+          <mxGeometry x="10" y="200" width="130" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="zFN81QH3VRkSANwxlvUG-18" value="imagen" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="zFN81QH3VRkSANwxlvUG-40">
+          <mxGeometry x="10" y="240" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zFN81QH3VRkSANwxlvUG-19" value="imagen" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="zFN81QH3VRkSANwxlvUG-40">
+          <mxGeometry x="10" y="290" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zFN81QH3VRkSANwxlvUG-20" value="imagen" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="zFN81QH3VRkSANwxlvUG-40">
+          <mxGeometry x="10" y="340" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zFN81QH3VRkSANwxlvUG-41" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="140" y="1210" width="150" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="zFN81QH3VRkSANwxlvUG-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="zFN81QH3VRkSANwxlvUG-41">
+          <mxGeometry width="150" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="zFN81QH3VRkSANwxlvUG-24" value="Razas grandes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="zFN81QH3VRkSANwxlvUG-41">
+          <mxGeometry width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zFN81QH3VRkSANwxlvUG-31" value="Las razas grandes son protectoras, leales y necesitan espacio para moverse." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="zFN81QH3VRkSANwxlvUG-41">
+          <mxGeometry y="40" width="146" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zFN81QH3VRkSANwxlvUG-32" value="&amp;nbsp;Cuidados: Requieren ejercicio intenso, alimentación de alta calidad y entrenamiento" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="zFN81QH3VRkSANwxlvUG-41">
+          <mxGeometry y="125" width="146" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zFN81QH3VRkSANwxlvUG-33" value="Lista de perros:&lt;br&gt;&lt;br&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Pastor aleman&lt;br&gt;&lt;br&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Labrador&lt;br&gt;&lt;br&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Golden" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="zFN81QH3VRkSANwxlvUG-41">
+          <mxGeometry x="20" y="200" width="130" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="zFN81QH3VRkSANwxlvUG-34" value="imagen" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="zFN81QH3VRkSANwxlvUG-41">
+          <mxGeometry x="6" y="240" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zFN81QH3VRkSANwxlvUG-35" value="imagen" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="zFN81QH3VRkSANwxlvUG-41">
+          <mxGeometry x="6" y="290" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zFN81QH3VRkSANwxlvUG-36" value="imagen" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="zFN81QH3VRkSANwxlvUG-41">
+          <mxGeometry x="6" y="340" width="50" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
