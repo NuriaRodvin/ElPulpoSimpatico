@@ -93,5 +93,11 @@
     "contact_address": "Address:",
     "contact_dni": "DNI:",
     "contact_become_member": "Become a Member",
-    "contact_member_mode_activated": "Member Mode Activated"
+    "contact_member_mode_activated": "Member Mode Activated",
+    "sidebar_title": "Links of Interest",
+    "news_alt": "News",
+    "law_alt": "Animal Law",
+    "recommendations_alt": "Adoption Recommendations",
+    "donate_button": "Make a Donation",
+    "video_section_title": "Video about our mission"
 }
