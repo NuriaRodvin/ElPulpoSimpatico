@@ -72,6 +72,7 @@ function toggleDescription(id) {
     const detailsElement = document.getElementById(id);
     detailsElement.open = !detailsElement.open; // Abre o cierra el desplegable
 }
+
 // Función para aceptar cookies
 function acceptCookies() {
     const acceptButton = document.getElementById("accept-cookies-btn");
@@ -96,5 +97,77 @@ document.addEventListener("DOMContentLoaded", () => {
         acceptButton.disabled = true;
         acceptButton.style.backgroundColor = "#4CAF50";
         acceptButton.style.cursor = "default";
+    }
+});
+
+// Script para el formulario de contacto
+document.addEventListener("DOMContentLoaded", () => {
+    const contactForm = document.getElementById("contact-form");
+    const confirmationMessage = document.getElementById("confirmation-message");
+
+    if (contactForm) {
+        contactForm.addEventListener("submit", (event) => {
+            event.preventDefault(); // Evita que el formulario se envíe de forma tradicional
+
+            // Validar que los campos no estén vacíos
+            const nombre = document.getElementById("nombre").value.trim();
+            const email = document.getElementById("email").value.trim();
+            const consulta = document.getElementById("consulta").value;
+            const mensaje = document.getElementById("mensaje").value.trim();
+
+            if (nombre === "" || email === "" || consulta === "" || mensaje === "") {
+                alert("Por favor, completa todos los campos del formulario.");
+                return;
+            }
+
+            // Mostrar mensaje de confirmación
+            confirmationMessage.style.display = "block";
+
+            // Opcional: Limpiar el formulario después de enviarlo
+            contactForm.reset();
+
+            // Opcional: Enviar el formulario mediante AJAX
+            // fetch(contactForm.action, {
+            //     method: contactForm.method,
+            //     body: new FormData(contactForm),
+            //     headers: {
+            //         'Accept': 'application/json'
+            //     }
+            // }).then(response => {
+            //     if (response.ok) {
+            //         confirmationMessage.style.display = "block";
+            //         contactForm.reset();
+            //     } else {
+            //         alert("Hubo un error al enviar el formulario. Por favor, inténtalo de nuevo.");
+            //     }
+            // });
+        });
+    }
+});
+
+// Script para el botón "Hacerte Socio" (activar/desactivar)
+document.addEventListener("DOMContentLoaded", () => {
+    const hacerteSocioBtn = document.getElementById("hacerte-socio-btn");
+    const camposSocio = document.getElementById("campos-socio");
+
+    if (hacerteSocioBtn && camposSocio) {
+        let modoSocioActivo = false; // Estado inicial: modo socio desactivado
+
+        hacerteSocioBtn.addEventListener("click", () => {
+            // Alternar entre activar y desactivar el modo socio
+            modoSocioActivo = !modoSocioActivo;
+
+            if (modoSocioActivo) {
+                // Activar modo socio
+                camposSocio.style.display = "block"; // Mostrar campos adicionales
+                hacerteSocioBtn.style.backgroundColor = "#FFA500"; // Cambiar color del botón
+                hacerteSocioBtn.textContent = "Modo Socio Activado"; // Cambiar texto del botón
+            } else {
+                // Desactivar modo socio
+                camposSocio.style.display = "none"; // Ocultar campos adicionales
+                hacerteSocioBtn.style.backgroundColor = ""; // Restaurar color del botón
+                hacerteSocioBtn.textContent = "Hacerte Socio"; // Restaurar texto del botón
+            }
+        });
     }
 });
