@@ -1,0 +1,13 @@
+{
+    "title": "The Friendly Octopus",
+    "welcome": "Welcome to The Friendly Octopus",
+    "description": "Discover everything about dogs: breeds, care, and adoption.",
+    "nav_home": "Home",
+    "nav_adoption": "Adoption",
+    "nav_about": "About Us",
+    "nav_contact": "Contact",
+    "form_name": "Name:",
+    "form_email": "Email:",
+    "form_message": "Message:",
+    "form_submit": "Send"
+}

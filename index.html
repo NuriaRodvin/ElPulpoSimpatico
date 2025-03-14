@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Pulpo Simpático - Adopción de Perros</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>El Pulpo Simpático</h1>
+        <img src="img/logo.jpg" alt="Logo de El Pulpo Simpático" width="150">
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="adopcion.html">Adopción</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="donativos.html">Donativos</a></li>
+                <li>
+                    <select id="language-selector">
+                        <option value="es">Español</option>
+                        <option value="en">English</option>
+                    </select>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Contenedor principal para Bienvenido, Servicios y Video -->
+        <div class="main-content">
+            <!-- Sección de Bienvenida -->
+            <section class="welcome-section">
+                <!-- Imagen de bienvenida -->
+                <img src="img/bienvenido.jpg" alt="Bienvenida a El Pulpo Simpático" class="welcome-image">
+                
+                <!-- Título y texto de bienvenida -->
+                <h2>Bienvenido a El Pulpo Simpático</h2>
+                <p>El Refugio es, desde 1996, una organización española especializada en la ayuda a perros y gatos abandonados y/o maltratados; una organización totalmente independiente que no recibe subvenciones de organismos oficiales, empresas ni partidos políticos. Practicamos el sacrificio cero, denunciamos judicialmente a los maltratadores y buscamos adoptantes para todos los animales que acogemos.</p>
+                
+                <!-- Botón para ver perros en adopción -->
+                <button class="btn" onclick="window.location.href='adopcion.html'">Ver perros en adopción</button>
+            </section>
+
+            <!-- Sección de Servicios -->
+            <section class="services-section">
+                <h2>Servicios</h2>
+                <ul>
+                    <li>Adopción de perros</li>
+                    <li>Consejos de nuestros expertos</li>
+                    <li>Educación básica para el cuidado de mascotas</li>
+                    <li>Atención a animales especiales</li>
+                </ul>
+                <!-- Botón para donativos -->
+                <button class="btn" onclick="window.location.href='donativos.html'">Hacer un donativo</button>
+            </section>
+
+            <!-- Sección del Video -->
+            <section class="video-section">
+                <h2>Video sobre nuestra misión</h2>
+                <div class="video-container">
+                    <iframe src="https://www.youtube.com/embed/s5Dul4Ftqzo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </section>
+        </div>
+
+        <!-- Sección de Enlaces (Columna derecha) -->
+        <aside class="sidebar">
+            <h2>Enlaces de interés</h2>
+            <ul>
+                <li>
+                    <!-- Imagen arriba de "Noticias" -->
+                    <img src="img/noticias.jpeg" alt="Noticias" width="150" style="display: block; margin: 0 auto 10px;">
+                    <a href="https://www.20minutos.es/minuteca/perros/1/" target="_blank">Noticias</a>
+                    <p>Mantente al día con las últimas noticias sobre animales y adopción.</p>
+                </li>
+                <li>
+                    <!-- Imagen arriba de "Ley Animal" -->
+                    <img src="img/ley.jpeg" alt="Ley Animal" width="150" style="display: block; margin: 0 auto 10px;">
+                    <a href="https://www.boe.es/biblioteca_juridica/codigos/codigo.php?id=204_Codigo_de_Proteccion_y_Bienestar_Animal&modo=2" target="_blank">Ley Animal</a>
+                    <p>Conoce las leyes que protegen a los animales en España.</p>
+                </li>
+                <li>
+                    <!-- Imagen arriba de "Recomendaciones al adoptante" -->
+                    <img src="img/recomendaciones.jpeg" alt="Recomendaciones" width="150" style="display: block; margin: 0 auto 10px;">
+                    <a href="https://www.comunidad.madrid/servicios/urbanismo-medio-ambiente/antes-adquirir-animal-compania" target="_blank">Recomendaciones al adoptante</a>
+                    <p>Consejos útiles para quienes están pensando en adoptar un perro.</p>
+                </li>
+            </ul>
+        </aside>
+
+        <!-- Sección de Cookies -->
+        <section class="cookies-section">
+            <p>Utilizamos cookies para asegurar que damos la mejor experiencia al usuario en nuestra web. Si sigues utilizando este sitio, asumiremos que estás de acuerdo.</p>
+            <button id="accept-cookies-btn" class="btn" onclick="acceptCookies()">Estoy de acuerdo</button>
+            <a id="read-more-link" href="cookies.html" class="read-more">Leer más</a>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 El Pulpo Simpático. Todos los derechos reservados.</p>
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+</html>

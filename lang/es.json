@@ -1,0 +1,13 @@
+{
+    "title": "El Pulpo Simpático",
+    "welcome": "Bienvenido a El Pulpo Simpático",
+    "description": "Descubre todo sobre los perros: razas, cuidados y adopción.",
+    "nav_home": "Inicio",
+    "nav_adoption": "Adopción",
+    "nav_about": "Nosotros",
+    "nav_contact": "Contacto",
+    "form_name": "Nombre:",
+    "form_email": "Correo Electrónico:",
+    "form_message": "Mensaje:",
+    "form_submit": "Enviar"
+}
