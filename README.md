@@ -1,6 +1,5 @@
 # El Pulpo Simpático 🐙🐶
 
-![Captura de pantalla de la página de inicio](img/inicio.png) <!-- Reemplaza con la ruta correcta de tu imagen -->
 
 Sitio web dedicado a la adopción responsable de perros. Proporciona información sobre razas, cuidados y un formulario de contacto para adoptar.
 
@@ -14,18 +13,6 @@ Sitio web dedicado a la adopción responsable de perros. Proporciona informació
 - **Diseño responsivo**: Compatible con dispositivos móviles y escritorio.
 - **Selector de idioma**: Disponible en español e inglés.
 
----
-
-## Capturas de pantalla 📸
-
-### Página de inicio
-![Captura de pantalla de la página de inicio](img/inicio.png) <!-- Reemplaza con la ruta correcta de tu imagen -->
-
-### Página de adopción
-![Captura de pantalla de la página de adopción](img/adopcion.png) <!-- Reemplaza con la ruta correcta de tu imagen -->
-
-### Página de contacto
-![Captura de pantalla de la página de contacto](img/contacto.png) <!-- Reemplaza con la ruta correcta de tu imagen -->
 
 ---
 
