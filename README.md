@@ -15,7 +15,7 @@ Sitio web dedicado a la adopción responsable de perros. Proporciona informació
 ![Adopción](screenshots/adopcion.png)
 
 ## Enlace a GitHub Pages
-[Ver sitio en vivo]([https://NuriaRodVin.github.io/el-pulpo-simpatico](https://nuriarodvin.github.io/ElPulpoSimpatico/index.html))
+[Ver sitio en vivo]([https://NuriaRodVin.github.io/el-pulpo-simpatico](https://nuriarodvin.github.io/ElPulpoSimpatico/index.html)
 =======
 # ElPulpoSimpatico
 >>>>>>> 46f07a1e612bf4bda48f4499e48fc1ced3288290
