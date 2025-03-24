@@ -323,3 +323,23 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 });
+
+//carrusel
+// Añadir esto a la función loadLanguage en el then(data => {...})
+const aboutCarouselTitles = document.querySelectorAll('.carousel-slide h2, .carousel-slide h3');
+if (aboutCarouselTitles.length > 0) {
+    aboutCarouselTitles[0].textContent = data.about_title;
+    aboutCarouselTitles[1].textContent = data.about_action_direct;
+    aboutCarouselTitles[2].textContent = data.about_action_direct_description;
+    aboutCarouselTitles[3].textContent = data.about_action_divulgative;
+    aboutCarouselTitles[4].textContent = data.about_action_divulgative_description;
+}
+
+const teamSectionTitle = document.querySelector('.team-section h2');
+if (teamSectionTitle) teamSectionTitle.textContent = data.about_team;
+
+const teamMembers = document.querySelectorAll('.team-member p');
+if (teamMembers.length > 0) {
+    teamMembers[0].textContent = data.about_team_member_1;
+    teamMembers[1].textContent = data.about_team_member_2;
+}

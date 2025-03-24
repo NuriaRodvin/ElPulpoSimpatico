@@ -645,3 +645,206 @@ footer {
 .perros-list p {
     margin-top: 0.5rem;
 }
+
+/* Estilos para el carrusel */
+/* Estilos para el carrusel - Versión mejorada */
+.about-carousel {
+    position: relative;
+    max-width: 900px; /* Más ancho que antes */
+    width: 90%; /* Ocupa el 90% del ancho disponible */
+    margin: 2rem auto;
+    background-color: #f9f9f9;
+    border-radius: 15px; /* Bordes más redondeados */
+    padding: 2.5rem; /* Más espacio interno */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Sombra más pronunciada */
+    min-height: 400px; /* Altura aumentada */
+    overflow: hidden;
+    border: 1px solid #e0e0e0; /* Borde sutil */
+}
+
+.carousel-container {
+    position: relative;
+    height: 100%;
+    padding: 0 40px; /* Espacio para las flechas */
+}
+
+.carousel-slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.6s ease-in-out;
+    padding: 1rem 2rem;
+    box-sizing: border-box;
+}
+
+.carousel-slide.active {
+    opacity: 1;
+}
+
+.carousel-slide h2 {
+    color: var(--color-primario);
+    margin-bottom: 1.5rem;
+    font-size: 2.2rem;
+    text-align: center;
+}
+
+.carousel-slide h3 {
+    color: var(--color-secundario);
+    margin: 1.5rem 0 1rem;
+    font-size: 1.5rem;
+}
+
+.carousel-slide p {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: var(--color-primario);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 50px; /* Más grandes */
+    height: 50px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    z-index: 10;
+    transition: all 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-button:hover {
+    background-color: var(--color-secundario);
+    transform: translateY(-50%) scale(1.1);
+}
+
+.carousel-button.prev {
+    left: 15px;
+}
+
+.carousel-button.next {
+    right: 15px;
+}
+
+/* Indicadores de posición (puntos) */
+.carousel-indicators {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.carousel-indicator {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: rgba(30, 144, 255, 0.5);
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.carousel-indicator.active {
+    background-color: var(--color-primario);
+    transform: scale(1.2);
+}
+
+/* Estilos para la sección del equipo - Versión mejorada */
+.team-section {
+    max-width: 900px; /* Igual de ancho que el carrusel */
+    width: 90%;
+    margin: 3rem auto;
+    text-align: center;
+    padding: 2rem 0;
+    border-top: 2px solid #f0f0f0; /* Línea separadora */
+}
+
+.team-section h2 {
+    color: var(--color-primario);
+    font-size: 2.2rem;
+    margin-bottom: 2rem;
+}
+
+.team {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem; /* Más espacio entre miembros */
+    margin-top: 1.5rem;
+}
+
+.team-member {
+    background-color: white;
+    border-radius: 15px;
+    padding: 2rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    width: 280px; /* Más ancho */
+    transition: transform 0.3s;
+}
+
+.team-member:hover {
+    transform: translateY(-5px);
+}
+
+.team-member img {
+    width: 180px; /* Imágenes más grandes */
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid var(--color-primario);
+    margin-bottom: 1.5rem;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.team-member h3 {
+    color: var(--color-secundario);
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.team-member p {
+    color: var(--color-texto);
+    font-size: 1.1rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .about-carousel {
+        min-height: 500px; /* Más alto en móviles */
+        padding: 1.5rem;
+    }
+
+    .carousel-button {
+        width: 40px;
+        height: 40px;
+        font-size: 1.2rem;
+    }
+
+    .carousel-slide h2 {
+        font-size: 1.8rem;
+    }
+
+    .team {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .team-member {
+        width: 100%;
+        max-width: 300px;
+    }
+}
