@@ -35,4 +35,3 @@ Sitio web dedicado a la adopción responsable de perros. Proporciona informació
 [Ver sitio en vivo]([https://NuriaRodVin.github.io/el-pulpo-simpatico](https://nuriarodvin.github.io/ElPulpoSimpatico/index.html) 
 
 
-
